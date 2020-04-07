@@ -41,21 +41,21 @@
         <system>YouTrack</system>
         <url>http://issue.twitter4j.org/youtrack/issues?q=project%3A+Twitter4J</url>
     </issueManagement>
-    <distributionManagement>
-        <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Nexus Release Repository</name>
-            <uniqueVersion>false</uniqueVersion>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/
-            </url>
-        </repository>
-        <snapshotRepository>
-            <id>org.twitter4j</id>
-            <name>twitter4j.org Repository</name>
-            <uniqueVersion>false</uniqueVersion>
-            <url>file:${user.home}/maven2/</url>
-        </snapshotRepository>
-    </distributionManagement>
+<!--     <distributionManagement> -->
+<!--         <repository> -->
+<!--             <id>sonatype-nexus-staging</id> -->
+<!--             <name>Nexus Release Repository</name> -->
+<!--             <uniqueVersion>false</uniqueVersion> -->
+<!--             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/ -->
+<!--             </url> -->
+<!--         </repository> -->
+<!--         <snapshotRepository> -->
+<!--             <id>org.twitter4j</id> -->
+<!--             <name>twitter4j.org Repository</name> -->
+<!--             <uniqueVersion>false</uniqueVersion> -->
+<!--             <url>file:${user.home}/maven2/</url> -->
+<!--         </snapshotRepository> -->
+<!--     </distributionManagement> -->
     <profiles>
         <profile>
             <id>release-sign-artifacts</id>
